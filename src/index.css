@@ -1,0 +1,25 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; }
+
+body {
+  background: #f5f3ef;
+  color: #1a1a14;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+* { cursor: none !important; }
+::selection { background: #1a1a14; color: #edeae3; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; border: none; background: none; }
+
+::-webkit-scrollbar { width: 2px; }
+::-webkit-scrollbar-track { background: #edeae3; }
+::-webkit-scrollbar-thumb { background: #bbb; }
+
+@keyframes spin    { to { transform: rotate(360deg); } }
+@keyframes fadeUp  { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:none; } }
+@keyframes pulse   { 0%,100%{opacity:1} 50%{opacity:.2} }
