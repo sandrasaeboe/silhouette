@@ -78,7 +78,7 @@ export default function App() {
 
         {/* Right */}
         <div style={{ display:'flex', justifyContent:'flex-end', alignItems:'center', gap:16 }}>
-          <a href="https://your-portfolio.vercel.app"
+          <a href="https://portfolio-sandrasaeboe.vercel.app"
             style={{ fontSize:12, letterSpacing:'0.16em', textTransform:'uppercase', color:C.ink40, fontFamily:'monospace', transition:'color .2s' }}
             onMouseEnter={e=>e.target.style.color=C.ink} onMouseLeave={e=>e.target.style.color=C.ink40}>
             ← Portfolio
